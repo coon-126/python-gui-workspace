@@ -1,5 +1,5 @@
 {
-    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "image": "mcr.microsoft.com/devcontainers/python:3.12",
     "features": {
         "ghcr.io/devcontainers/features/desktop-lite:1": {}
     },
@@ -9,6 +9,5 @@
             "label": "noVNC Viewer",
             "onAutoForward": "openBrowser"
         }
-    },
-    "postStartCommand": "export DISPLAY=:1 && export XDG_RUNTIME_DIR=/tmp/runtime-codespace && mkdir -p $XDG_RUNTIME_DIR && chmod 700 $XDG_RUNTIME_DIR"
+    }
 }
