@@ -1,0 +1,3 @@
+# Fitness Training App Requirements
+ttkbootstrap>=1.10.1
+matplotlib>=3.7.0
